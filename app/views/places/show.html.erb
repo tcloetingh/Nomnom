@@ -96,13 +96,13 @@
 </div>
 
 <div class="col-10 offset-1">
-  <h1>Photos</h1>
+  <h1 class="photo_title">Photos</h1>
   <br />
   <% @place.photos.each do |photo| %>
-    <blockquote>
-      <%= image_tag photo.picture.url %> 
+      <%= image_tag photo.picture.url, :class => "container"  %> 
+     <div class="caption_container">
       <%= photo.caption %>
-  </blockquote>
+    </div>
   <% end %>
 </div>
 
