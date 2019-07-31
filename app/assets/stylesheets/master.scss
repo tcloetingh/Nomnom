@@ -1,5 +1,6 @@
 @import "bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed&display=swap');
 @import "font-awesome";
 
 .booyah-box {
@@ -82,14 +83,17 @@ blockquote p {
 .container {
   max-width: 400px;
   max-height: 400px;
+  
 }
 
 .caption_container {
   text-align: center;
+  font-weight: bold;
 }
 
-.photo_title {
+.title {
   text-align: center;
+  font-family: 'Righteous', cursive;
 }
 
 .carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img {
@@ -98,7 +102,7 @@ blockquote p {
 }
 
 .carousel-caption {
-  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Righteous', cursive;
   font-size: 60px;
   font-weight: 100;
   text-shadow: rgba(0, 0, 0, 0.95) 2px 2px;
@@ -110,5 +114,19 @@ blockquote p {
 
 .carousel {
   box-shadow: 0px 3px 8px #2a2a2a;
+}
+
+.font {
+  font-family: 'Righteous', cursive;
+  color: black;
+}
+
+.ubuntu {
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-weight: bold;
+}
+
+.link-to-color {
+  color: black;
 }
 
