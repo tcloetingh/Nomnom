@@ -1,6 +1,4 @@
-<div class="col-3">
-  <%=will_paginate @places %>
-</div>
+
 
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
@@ -24,6 +22,14 @@
         <h3>Steaks anyone?</h3>
       </div>
     </div>
+
+
+    <div class="carousel-item">
+      <%= image_tag 'slider3.jpg', class: 'd-block img-fluid' %>
+      <div class="carousel-caption d-none d-md-block">
+        <h3>Best tacos around!</h3>
+      </div>
+    </div>
  
  
   </div>
@@ -38,7 +44,7 @@
 </div>
 <% @places.each do |place| %>
   <div class="booyah-box col-10 offset-1 ubuntu">
-    <h1><%= link_to place.name, place_path(place) %></h1>
+    <h1><%= link_to place.name, place_path(place), class: 'link-to-color' %></h1>
     <i><%= place.address %></i><br />
     <p><%= place.description %></p><br />
     <% if place.user.present? %>
@@ -58,3 +64,7 @@
     <% end %>
   </div>
 <% end %>
+
+<div class="col-3 offset-2">
+  <%=will_paginate @places %>
+</div>

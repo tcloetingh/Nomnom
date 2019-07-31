@@ -41,7 +41,10 @@ body {
   background: white;
   cursor: default;
   height: 22px;
+  width: 230px;
   padding-left: 40px;
+  margin-left: 100px;
+  margin-bottom: 20px;
 }
 
 .invalid-feedback {
@@ -83,7 +86,8 @@ blockquote p {
 .container {
   max-width: 400px;
   max-height: 400px;
-  
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .caption_container {
@@ -97,7 +101,7 @@ blockquote p {
 }
 
 .carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img {
-  max-height: 550px;
+  max-height: 400px;
   width: 100%;
 }
 
@@ -107,7 +111,7 @@ blockquote p {
   font-weight: 100;
   text-shadow: rgba(0, 0, 0, 0.95) 2px 2px;
   background-color: rgba(0, 0, 0, 0.5);
-  width: 100px;
+  width: 100%;
   position: absolute;
   left: 0;
 }
