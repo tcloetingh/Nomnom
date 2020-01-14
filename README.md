@@ -1,24 +1,12 @@
-# README
+# Rails 5.2
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Devise Authentication
 
-Things you may want to cover:
+* Multiple Layouts
 
-* Ruby version
+* PostgreSQL
 
-* System dependencies
+* Google Maps API
 
-* Configuration
+* Production via Heroku
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
